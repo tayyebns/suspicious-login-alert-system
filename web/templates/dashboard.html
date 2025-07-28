@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLAS - Security Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">SLAS</h1>
+                <p class="subtitle">Suspicious Login Alert System</p>
+                <div class="status-indicator">
+                    <span class="status-dot active"></span>
+                    <span class="status-text">Monitoring Active</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🚨</div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="total-alerts">0</h3>
+                        <p class="stat-label">Total Alerts</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="brute-force-alerts">0</h3>
+                        <p class="stat-label">Brute Force</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">⚠️</div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="suspicious-user-alerts">0</h3>
+                        <p class="stat-label">Suspicious Users</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">🌐</div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="unique-ips">0</h3>
+                        <p class="stat-label">Unique IPs</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="alerts-section">
+                <div class="section-header">
+                    <h2>Recent Alerts</h2>
+                    <div class="last-update">
+                        Last update: <span id="last-update">Never</span>
+                    </div>
+                </div>
+                
+                <div class="alerts-container" id="alerts-container">
+                    <div class="no-alerts">
+                        <div class="no-alerts-icon">🛡️</div>
+                        <p>No alerts detected. System is secure.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

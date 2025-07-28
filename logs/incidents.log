@@ -1,0 +1,54 @@
+{"timestamp": "2025-07-27T22:45:51.883615", "incident_type": "brute_force", "ip_address": "192.168.1.100", "username": "user1", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.883753", "incident_type": "brute_force", "ip_address": "192.168.1.100", "username": "user1", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.883794", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.883832", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.883866", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.883895", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.883924", "incident_type": "brute_force", "ip_address": "192.168.1.171", "username": "test", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.883950", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.883982", "incident_type": "brute_force", "ip_address": "192.168.1.171", "username": "test", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884012", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884041", "incident_type": "brute_force", "ip_address": "192.168.1.171", "username": "test", "attempt_count": 7, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884066", "incident_type": "suspicious_username", "ip_address": "192.168.1.171", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884103", "incident_type": "brute_force", "ip_address": "192.168.1.155", "username": "user1", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884131", "incident_type": "brute_force", "ip_address": "192.168.1.155", "username": "user1", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884158", "incident_type": "brute_force", "ip_address": "192.168.1.155", "username": "user1", "attempt_count": 7, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884194", "incident_type": "brute_force", "ip_address": "192.168.1.104", "username": "user1", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884221", "incident_type": "brute_force", "ip_address": "192.168.1.104", "username": "user1", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884253", "incident_type": "brute_force", "ip_address": "192.168.1.104", "username": "user1", "attempt_count": 7, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884284", "incident_type": "suspicious_username", "ip_address": "10.0.0.75", "username": "root", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884313", "incident_type": "suspicious_username", "ip_address": "10.0.0.75", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884343", "incident_type": "suspicious_username", "ip_address": "10.0.0.75", "username": "administrator", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884370", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884396", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884454", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884484", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884512", "incident_type": "brute_force", "ip_address": "192.168.1.136", "username": "admin", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884541", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884570", "incident_type": "brute_force", "ip_address": "192.168.1.136", "username": "admin", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884596", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884624", "incident_type": "brute_force", "ip_address": "192.168.1.136", "username": "admin", "attempt_count": 7, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884649", "incident_type": "suspicious_username", "ip_address": "192.168.1.136", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884677", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884704", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884733", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884762", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884794", "incident_type": "brute_force", "ip_address": "192.168.1.193", "username": "test", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884821", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884848", "incident_type": "brute_force", "ip_address": "192.168.1.193", "username": "test", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884873", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884901", "incident_type": "brute_force", "ip_address": "192.168.1.193", "username": "test", "attempt_count": 7, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.884925", "incident_type": "suspicious_username", "ip_address": "192.168.1.193", "username": "test", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884954", "incident_type": "suspicious_username", "ip_address": "10.0.0.51", "username": "root", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.884981", "incident_type": "suspicious_username", "ip_address": "10.0.0.51", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885009", "incident_type": "suspicious_username", "ip_address": "10.0.0.51", "username": "administrator", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885038", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885065", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885112", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885142", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885176", "incident_type": "brute_force", "ip_address": "192.168.1.107", "username": "admin", "attempt_count": 5, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.885208", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885242", "incident_type": "brute_force", "ip_address": "192.168.1.107", "username": "admin", "attempt_count": 6, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.885269", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
+{"timestamp": "2025-07-27T22:45:51.885298", "incident_type": "brute_force", "ip_address": "192.168.1.107", "username": "admin", "attempt_count": 7, "rule_triggered": "max_failed_attempts"}
+{"timestamp": "2025-07-27T22:45:51.885332", "incident_type": "suspicious_username", "ip_address": "192.168.1.107", "username": "admin", "rule_triggered": "suspicious_usernames"}
